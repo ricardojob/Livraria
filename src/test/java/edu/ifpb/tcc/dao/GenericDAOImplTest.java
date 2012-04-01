@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.ifpb.tcc.dao;
 
 import java.util.List;
@@ -10,10 +6,10 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Ricardo Job
+ * @author Ricardo Job Apenas um teste
  */
 public class GenericDAOImplTest {
-    
+
     public GenericDAOImplTest() {
     }
 
@@ -24,11 +20,11 @@ public class GenericDAOImplTest {
     @AfterClass
     public static void tearDownClass() throws Exception {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
@@ -45,7 +41,7 @@ public class GenericDAOImplTest {
         boolean result = instance.salvar(o);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to//fail.
-       //fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -60,7 +56,7 @@ public class GenericDAOImplTest {
         boolean result = instance.remover(o);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to//fail.
-       //fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -76,7 +72,7 @@ public class GenericDAOImplTest {
         Object result = instance.listarCpf(t, cpf);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to//fail.
-       //fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -91,7 +87,7 @@ public class GenericDAOImplTest {
         List result = instance.listarTodos(t);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to//fail.
-       //fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -107,7 +103,7 @@ public class GenericDAOImplTest {
         List result = instance.listar(t, whereClause);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to//fail.
-       //fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -122,7 +118,7 @@ public class GenericDAOImplTest {
         boolean result = instance.mesclar(o);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to//fail.
-       //fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -137,6 +133,6 @@ public class GenericDAOImplTest {
         boolean result = instance.atualizar(o);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to//fail.
-       //fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 }
